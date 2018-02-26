@@ -28,7 +28,10 @@
         ElseIf Switcher = 2 Then
             SQLStatement = "INSERT INTO customer (Cus_name,Cus_Age,Cus_Address,Cus_Income,Cus_Tel,Cus_Job) VALUES ('" & cus.name & "','" & cus.surname & "','" & cus.age & "','" & cus.address & "','" & cus.carrier & "','" & cus.salary & "','" & cus.telephone & "')"
             MessageBox.Show(SQLStatement)
+        ElseIf Switcher = 3 Then
+
         End If
+
 
         Return 0
     End Function
@@ -83,6 +86,5 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Edit_Button.Click
-        MessageBox.Show("แก้ไข ผู้ใช้ชื่อ " & NameReg.Text & " " & SurnameReg.Text & " สำเร็จแล้วค่ะ", "ข้อความจากระบบ")
     End Sub
 End Class
