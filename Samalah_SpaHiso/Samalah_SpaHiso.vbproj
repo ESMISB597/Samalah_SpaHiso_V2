@@ -89,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="bill.Designer.vb">
+      <DependentUpon>bill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login_Page.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -141,14 +147,35 @@
     <Compile Include="serviceQ.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="service_book.Designer.vb">
+      <DependentUpon>service_book.vb</DependentUpon>
+    </Compile>
+    <Compile Include="service_book.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Splash_SMH.Designer.vb">
       <DependentUpon>Splash_SMH.vb</DependentUpon>
     </Compile>
     <Compile Include="Splash_SMH.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="bill.resx">
+      <DependentUpon>bill.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Page.resx">
       <DependentUpon>Login_Page.vb</DependentUpon>
     </EmbeddedResource>
@@ -172,9 +199,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="serviceQ.resx">
       <DependentUpon>serviceQ.vb</DependentUpon>
+    <EmbeddedResource Include="service_book.resx">
+      <DependentUpon>service_book.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash_SMH.resx">
       <DependentUpon>Splash_SMH.vb</DependentUpon>
+    </EmbeddedResource>
+	    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+	    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
