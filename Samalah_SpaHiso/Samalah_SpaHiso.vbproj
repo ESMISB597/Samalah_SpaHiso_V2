@@ -129,6 +129,12 @@
     <Compile Include="RoomBook.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="serviceQ.Designer.vb">
+      <DependentUpon>serviceQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="serviceQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Splash_SMH.Designer.vb">
       <DependentUpon>Splash_SMH.vb</DependentUpon>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RoomBook.resx">
       <DependentUpon>RoomBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serviceQ.resx">
+      <DependentUpon>serviceQ.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash_SMH.resx">
       <DependentUpon>Splash_SMH.vb</DependentUpon>
