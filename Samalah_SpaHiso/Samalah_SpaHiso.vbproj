@@ -117,6 +117,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PointCard.Designer.vb">
+      <DependentUpon>PointCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PointCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Regist.Designer.vb">
       <DependentUpon>Regist.vb</DependentUpon>
     </Compile>
@@ -148,6 +154,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointCard.resx">
+      <DependentUpon>PointCard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Regist.resx">
       <DependentUpon>Regist.vb</DependentUpon>
